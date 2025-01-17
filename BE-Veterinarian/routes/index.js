@@ -1,0 +1,10 @@
+export { default as AppointmentRoute } from "./appointment.js";
+export { default as AuthRoute } from "./auth.js";
+export { default as FileRoute } from "./file.js";
+export { default as MedicationRoute } from "./medication.js";
+export { default as MessageRoute } from "./message.js";
+export { default as PetRoute } from "./pet.js";
+export { default as TokenRoute } from "./token.js";
+export { default as TreatmentRoute } from "./treatment.js";
+export { default as UserRoute } from "./user.js";
+export { default as VaccineRoute } from "./vaccine.js";

@@ -1,0 +1,9 @@
+export * as Appointment from "./appointment";
+export * as Authentication from "./authentication";
+export { Home } from "./Home";
+export * as Discussion from "./discussion";
+export * as File from "./file";
+export * as Pet from "./pet";
+export * as Redirect from "./redirect";
+export * as Treatment from "./treatment";
+export * as User from "./user";

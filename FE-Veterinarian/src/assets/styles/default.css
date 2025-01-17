@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+.default-wrapper {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.default-inner {
+  padding: 16px;
+  transition: all .3s;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.default-inner table .btn:not(:last-child) {
+  margin-right: 12px;
+}

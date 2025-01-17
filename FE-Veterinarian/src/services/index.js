@@ -1,0 +1,10 @@
+export { default as AppointmentService } from "./appointment";
+export { default as AuthService } from "./auth";
+export { default as FileService } from "./file";
+export { default as MedicationService } from "./medication";
+export { default as MessageService } from "./message";
+export { default as PetService } from "./pet";
+export { default as TokenService } from "./token";
+export { default as TreatmentService } from "./treatment";
+export { default as UserService } from "./user";
+export { default as VaccineService } from "./vaccine";
