@@ -10,7 +10,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon server.js",
+    "server": "nodemon server.js",
     "start": "node server.js"
   },
   "dependencies": {
