@@ -135,3 +135,4 @@ dist
 
 # uploads
 uploads/
+.vercel
