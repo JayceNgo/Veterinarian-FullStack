@@ -4,26 +4,22 @@ import mongoose from "mongoose";
 
 import { db, env } from "../config/index.js";
 import {
-  AppointmentRoute,
-  AuthRoute,
-  FileRoute,
-  MedicationRoute,
-  MessageRoute,
-  PetRoute,
-  TokenRoute,
-  TreatmentRoute,
-  UserRoute,
-  VaccineRoute,
+    AppointmentRoute,
+    AuthRoute,
+    FileRoute,
+    MedicationRoute,
+    MessageRoute,
+    PetRoute,
+    TokenRoute,
+    TreatmentRoute,
+    UserRoute,
+    VaccineRoute,
 } from "../routes/index.js";
 
 const app = express();
 const database = db();
 
-app.use(
-  cors({
-    origin: env.CORS_ORIGIN.split(","),
-  })
-);
+app.use(cors());
 app.use(express.json({ limit: "200mb" }));
 app.use(express.urlencoded({ extended: true, limit: "200mb" }));
 
