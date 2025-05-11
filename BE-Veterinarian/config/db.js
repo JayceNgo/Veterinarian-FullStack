@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import { env } from "../config/index.js";
 
 export default async function () {
-  await mongoose.connect(env.CONNECTION_STRING, (error) => {
+  await mongoose.connect(env.MONGODB_URI, (error) => {
     if (error) console.log(error);
     console.log("mongodb connection success");
   });
